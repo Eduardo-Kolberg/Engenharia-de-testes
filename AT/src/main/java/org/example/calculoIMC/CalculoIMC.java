@@ -1,17 +1,12 @@
-package com.infnet.tp1;
+package org.example.calculoIMC;
 
-import org.springframework.boot.SpringApplication;
 
 import java.util.Scanner;
 
 
 public class CalculoIMC {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CalculoIMC.class, args);
-		String versao = "1.0";
-		programaIMC(versao);
-	}
+
 
 	public static String classificarIMC(double imc) {
 		if (imc < 16.0) {
